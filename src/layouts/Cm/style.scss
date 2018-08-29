@@ -1,0 +1,35 @@
+.m-cm-section{
+    background: #fff;
+    padding:.5333rem .4rem;
+    margin-bottom: .4rem;
+
+    .cm-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left:.2667rem;
+        border-left: 4px #5b5b5b solid;
+        .title{
+           font-size: .48rem;
+           line-height: .6667rem;
+           color:#333;
+           small{
+               font-size: .2667rem;
+               color:#333;
+               font-weight: bold;
+               line-height: .3467rem;
+               display: block;
+           }
+        }
+        .btn-more{
+            color:#999;
+            font-size: .3733rem;
+            line-height: .5333rem;
+        }
+
+    }
+    .cm-body{
+        padding-top:.5333rem;
+        overflow: hidden;
+    }
+}
